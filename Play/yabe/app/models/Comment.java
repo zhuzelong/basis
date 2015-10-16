@@ -9,7 +9,7 @@ import play.db.jpa.*;
 public class Comment extends Model {
 
     public String author;
-    public Date postAt;
+    public Date postedAt;
 
     @Lob
     public String content;
@@ -21,6 +21,6 @@ public class Comment extends Model {
         this.post = post;
         this.author = author;
         this.content = content;
-        this.postAt = new Date();
+        this.postedAt = new Date();
     }
 }

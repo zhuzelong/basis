@@ -1,0 +1,55 @@
+
+/**
+ * An arithmetic progression, the same as we had before, but
+ * now defined in terms of the general number sequence. Note
+ * that the amount of code needed here is trivial.
+ *
+ */
+public class ArithmeticProgression extends NumberSequence {
+    // Reinstate the initial value and increment
+    private long startingValue;
+    private int increment;
+    
+    /**
+     * Constructor for arithmetic progressions takes an initial
+     * value and an increment, as before.
+     */
+    public ArithmeticProgression(long startingValue, int increment) {
+        // Call the superclass constructor to do its stuff..
+        super(new long[] {startingValue} );
+        // and then set up the initial value and increment.
+        this.startingValue = startingValue;
+        this.increment = increment;
+    }
+    /**
+     * Calculate the ith value of an arithmetic progression.
+     */
+    protected long definingSum(int i) {
+        return startingValue + i*increment;
+    }
+    /** Implementation of valueAt() for A.Ps.
+     */
+    public long valueAt(int i) {
+        // Redefine valueAt() to simply calculate the value and
+        // not store it, since this is cheaper for A.P.s.
+        return this.definingSum(i);
+    }
+    /** Return a terse description of the A.P.
+     */
+    public String toString() {
+        return "AP(" + startingValue + "," + increment + ")";
+    }
+    
+    /**
+     * Test program
+     */
+    public static void main(String[] args) {
+        ArithmeticProgression s1 = new ArithmeticProgression(1000,1000);
+        ArithmeticProgression s2 = new ArithmeticProgression(50, 10);
+        for (int i=0; i<30; i++) {
+            System.out.println(s1 + "[" + i + "] = " + s1.valueAt(i));
+            System.out.println(s2 + "[" + i + "] = " + s2.valueAt(i));
+        }
+    }
+
+} // ArithmeticProgression

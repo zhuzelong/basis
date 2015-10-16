@@ -1,0 +1,6 @@
+*.DS_Store
+Play/*/tmp/
+Play/*/modules/
+Play/*/lib/
+Play/*/test-result/
+Play/*/logs

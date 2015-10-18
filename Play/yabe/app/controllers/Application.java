@@ -3,6 +3,7 @@ package controllers;
 import play.*;
 import play.mvc.*;
 import play.Play;
+import play.data.validation.*;
 
 import java.util.*;
 
@@ -22,4 +23,19 @@ public class Application extends Controller {
         renderArgs.put("blogBaseline", Play.configuration.getProperty("blog.baseline"));
     }
 
+    public static void show(Long id) {
+        Post post = Post.findById(id);
+        render(post);
+    }
+
+    public static void postComment(Long id, @Required String author, @Required String content) {
+        Post post = Post.findById(id);
+        if (validation.hasErrors()) {
+            render("Application/show.html", post);
+        }
+        // Let the models deal with behaviour, do not put the detail in controller
+        post.addComment(author, content);
+        flash.success("Thanks for posting, %s", author);
+        show(id);
+    }
 }

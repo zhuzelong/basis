@@ -1,7 +1,5 @@
-*{Post display mode: 'full', 'home', 'teaser'}*
-
 <div class="post ${_as == 'teaser' ? 'teaser': ''}">
-    <h2 class="post-title"><a href="#">${_post.title}</a></h2>
+    <h2 class="post-title"><a href="@{Application.show(_post.id)}">${_post.title}</a></h2>
     <div class="post-metadata">
         <span class="post-author">by ${_post.author.fullname}</span>
         <span class="post-date">${_post.postedAt.format('dd MMM yy')}</span>
@@ -16,6 +14,8 @@
             </span>
         #{/if}
     </div>
+
+    <!-- If 'as' is not teaser, show the complete content of a post -->
     #{if _as != 'teaser'}
         <div class="post-content">
             <div class="about">Detail: </div>
@@ -24,10 +24,11 @@
     #{/if}
 </div>
 
+<!-- If '_as' is full, show the comments -->
 #{if _as == 'full'}
     <div class="comments">
         <h3>
-            ${_post.comments.size()?:'no'}
+            ${_post.comments.size()?:'No'}
             comment${_post.comments.size().pluralize()}
         </h3>
 

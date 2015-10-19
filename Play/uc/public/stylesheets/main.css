@@ -1,0 +1,18 @@
+p.error {
+    color: red;
+    font-size: 1.5em;
+}
+
+p.success {
+    color: green;
+}
+
+
+footer {
+    border-top: 1px solid #45597A;
+    font-size: 70%;
+    padding: 10px 30px;
+    text-align: center;
+    color: #869AB1;
+    margin-top: 30px;
+}

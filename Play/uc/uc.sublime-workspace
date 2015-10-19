@@ -1,0 +1,1303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"da",
+				"data science"
+			],
+			[
+				"dat",
+				"data science"
+			],
+			[
+				"weig",
+				"weight2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Primary Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Choose Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Primary Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Choose Quick Build"
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/knitr/knitr-Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/knitr/knitr-Markdown.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/knitr/knitr-Markdown.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/knitr/knitr-Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/knitr/knitr-Markdown.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Markdown Preview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					""
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (All)"
+				],
+				[
+					"Packages/Vintageous/Vintageous.sublime-build",
+					"Vintageous - Test (This File Only)"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/knitr/knitr-Markdown.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pkg up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
+			],
+			[
+				"evu",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"",
+				"Browse Mode..."
+			],
+			[
+				"evup",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"evsend",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"ev new",
+				"Evernote: New empty note"
+			],
+			[
+				"ev o",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"vu",
+				"Evernote Settings: User"
+			],
+			[
+				"evs",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"evn",
+				"Evernote: New empty note"
+			],
+			[
+				"md pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"evo",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"ev u",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"ev up",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"ev sen",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"eve new",
+				"Evernote: New empty note"
+			],
+			[
+				"vin",
+				"Evernote: Clip to Evernote as new note"
+			],
+			[
+				"pkg li",
+				"Package Control: List Packages"
+			],
+			[
+				"emmet",
+				"Emmet: Balance (inward)"
+			],
+			[
+				"syn htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"syn em",
+				"Set Syntax: Emmet"
+			],
+			[
+				"pkg in",
+				"Package Control: Install Package"
+			],
+			[
+				"pkg list",
+				"Package Control: List Packages"
+			],
+			[
+				"pkg upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl python",
+				"SublimeREPL: Python"
+			],
+			[
+				"pkg inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pkg remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"repl vir",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"repl python vi",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"repl py",
+				"SublimeREPL: Python"
+			],
+			[
+				"pkg ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pkg install",
+				"Package Control: Install Package"
+			],
+			[
+				"md p",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pkg setting",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"typ",
+				"Typewriter: Scrolling Mode (Toggle)"
+			],
+			[
+				"type",
+				"Typewriter: Scrolling Mode (Toggle)"
+			],
+			[
+				"eve op",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"ev open",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"filediff",
+				"FileDiffs: Menu"
+			],
+			[
+				"pkg remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"ev n",
+				"Evernote: New empty note"
+			],
+			[
+				"jekyll",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"jekyl",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"subl py",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"jeky",
+				"Set Syntax: Markdown (Jekyll)"
+			],
+			[
+				"jek",
+				"Jekyll: Open post..."
+			],
+			[
+				"je",
+				"Jekyll: New post"
+			],
+			[
+				"pk in",
+				"Package Control: Install Package"
+			],
+			[
+				"ev oo",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"pkg con",
+				"Package Control: List Packages"
+			],
+			[
+				"pkg res",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"knitr",
+				"Set Syntax: knitr (Rnw)"
+			],
+			[
+				"pkg re",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"ev op",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"knit",
+				"Set Syntax: knitr (Rnw)"
+			],
+			[
+				"kni",
+				"Set Syntax: knitr (Rnw)"
+			],
+			[
+				"pkg ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"latextool",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pkg instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Evernote Metadata"
+			],
+			[
+				"pkgre",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Build: ",
+				"Build With: LaTeX"
+			],
+			[
+				"latexing",
+				"LaTeXing: Texcount"
+			],
+			[
+				"pkg install ",
+				"Package Control: Install Package"
+			],
+			[
+				"latexing vers",
+				"LaTeXing: Version"
+			],
+			[
+				"r-box",
+				"R-Box: Choose Program"
+			],
+			[
+				"R-box",
+				"R-Box: Choose Program"
+			],
+			[
+				"ipython",
+				"Restart IPython Notebook Kernel"
+			],
+			[
+				"open",
+				"Open Current Notebook As Ipynb File"
+			],
+			[
+				"repl ipython",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"repl ipy",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"pkg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"evop",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"mded",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"evsen",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"syn latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"pkgremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pkgins",
+				"Package Control: Install Package"
+			],
+			[
+				"veu",
+				"Evernote Settings: User"
+			],
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"pkgupgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"evi",
+				"File: New View into File"
+			],
+			[
+				"sql",
+				"SQL Beautifier: Format Current SQL File"
+			],
+			[
+				"mdedi",
+				"MarkdownEditing: Switch List Bullet Type"
+			],
+			[
+				"markdowned",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"markdown",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"python",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"syn py",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"pkg upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"evse",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"pk upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"vinta",
+				"Vintageous: Toggle Vim Ctrl Keys"
+			],
+			[
+				"euv",
+				"Evernote Settings: User"
+			],
+			[
+				"ev send",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"ever new",
+				"Evernote: New empty note"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				":remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"brow",
+				"Browse Mode..."
+			],
+			[
+				"brows",
+				"Browse Mode..."
+			],
+			[
+				":install",
+				"Package Control: Install Package"
+			],
+			[
+				"anoca",
+				"Anaconda: Find object usage"
+			],
+			[
+				"anoc",
+				"Anaconda: McCabe complexity check"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"evernote",
+				"Evernote: List recent notes"
+			],
+			[
+				"ev",
+				"Evernote Settings: Default"
+			],
+			[
+				"e",
+				"Evernote: Search Note"
+			],
+			[
+				"everno",
+				"Evernote: Search Note"
+			],
+			[
+				"ever",
+				"Evernote: Search Note"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 272.0,
+		"history":
+		[
+			"Vintageous: Toggle Vim Ctrl Keys",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Zack/Documents/code/tutorials/Play/uc"
+	],
+	"file_history":
+	[
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/dependencies.yml",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/routes",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/views/Application/index.html",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Posts.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/models/User.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/models/Post.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/views/tags/display.html",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/Bootstrap.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/views/main.html",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/modules/crud",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/db/h2/play.mv.db",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/models/Comment.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/views/Application/show.html",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Post2.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Users.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Post.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Application.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/messages",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Comments.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/application.conf",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/initial-data.yml",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/test/BasicTest.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/test/data.yml",
+		"/Users/Zack/Documents/code/play/app/controllers/Application.java",
+		"/Users/Zack/Documents/code/play/app/views/Application/index.html",
+		"/Users/Zack/Documents/code/play/test/Application.test.html",
+		"/Users/Zack/Documents/code/play/app/views/main.html",
+		"/Users/Zack/Documents/code/play/app/views/Application/sayHello.html",
+		"/Users/Zack/Documents/code/play/conf/routes",
+		"/etc/paths",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Evernote.sublime-settings",
+		"/Users/Zack/Downloads/test.html",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Zack/Downloads/÷–π˙µÁª∞º§ªÓkey∫Õ∑Ω∑®.txt",
+		"/Users/Zack/Documents/career/uc/Minute of Meeting/入职培训目标.md",
+		"/Users/Zack/Downloads/Office2013联网密钥.txt",
+		"/Users/Zack/Documents/career/uc/Minute of Meeting/min_meeting_20151010.md",
+		"/Users/Zack/Downloads/winkey.txt",
+		"/Users/Zack/Downloads/密匙.txt",
+		"/Users/Zack/Dropbox/Icon",
+		"/Users/Zack/Downloads/Yalin Chen CV.pdf",
+		"/Users/Zack/Downloads/UC优视新员工入职当天安排（正式）.doc",
+		"/Users/Zack/.aria2/aria2.conf",
+		"/Users/Zack/Downloads/NLP/08_Week_4_-_Weaknesses_of_PCFGs/01_Weaknesses_of_PCFGs.txt",
+		"/Users/Zack/Documents/career/resume/en/resume.tex",
+		"/Users/Zack/Downloads/DisplayProductID-d06e",
+		"/System/Library/Displays/Overrides/DisplayVendorID-10ac/DisplayProductID-D06E",
+		"/Users/Zack/Downloads/MSc Project.mbox/mbox",
+		"/Users/Zack/.ssh/known_hosts",
+		"/Users/Zack/.ssh/config",
+		"/Users/Zack/.venv/datasci/pyvenv.cfg",
+		"/Users/Zack/.venv/datasci/pip-selfcheck.json",
+		"/Users/Zack/Documents/code/msc/cluster/xmeans.py",
+		"/Users/Zack/Documents/code/msc/cluster/feature_selection.py",
+		"/Users/Zack/Documents/code/msc/log/stat of tables.md",
+		"/Users/Zack/Documents/career/resume/cn/cnresume.tex",
+		"/Users/Zack/Documents/career/resume/README.md",
+		"/Users/Zack/Documents/code/msc/README.md",
+		"/Users/Zack/Documents/code/msc/geocode/reverse_geocode.py",
+		"/Users/Zack/Documents/code/msc/log/questions.md",
+		"/Users/Zack/Documents/code/msc/sql/wait.sql",
+		"/Users/Zack/Documents/code/msc/data/transaction/wait_swiss.csv",
+		"/Users/Zack/Documents/code/msc/data/location/location.csv",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Zack/Documents/code/msc/data/transaction/t_sussex.csv",
+		"/Users/Zack/Documents/code/msc/sql/tsa.sql",
+		"/Users/Zack/Documents/code/msc/sql/tsa",
+		"/Users/Zack/Documents/code/msc/geocode/geocode.py",
+		"/Users/Zack/Documents/code/msc/msc.sublime-project",
+		"/Users/Zack/Documents/code/msc/cluster/feature.py",
+		"/Users/Zack/Downloads/vm/wait_summary.csv",
+		"/Users/Zack/Documents/code/msc/data/location/lib_feature.csv",
+		"/Users/Zack/Documents/code/msc/data/location/lib_feature_r.csv",
+		"/Users/Zack/Documents/code/msc/sql/library.sql",
+		"/Users/Zack/.python_history",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/SQL.sublime-settings",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL/config/Python/Main.sublime-menu",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/Users/Zack/Documents/job/resume/en/resume2014.md",
+		"/Users/Zack/Documents/job/resume/en/resume2014.tex",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Zack/Documents/code/msc/sql/clean.sql",
+		"/Users/Zack/Documents/code/msc/sql/Ideas for MSc project.enmd",
+		"/Users/Zack/Documents/code/msc/data/transaction/circulation_year.csv",
+		"/Users/Zack/Documents/code/msc/data/old/location/se_action.csv",
+		"/Users/Zack/Documents/code/msc/sql/client.sql",
+		"/Users/Zack/Documents/code/msc/log/clean test data.md",
+		"/Users/Zack/Documents/code/msc/log/compute transaction elapse.md",
+		"/Users/Zack/Documents/code/msc/log/find footfall.md",
+		"/Users/Zack/Documents/code/msc/log/fix latlng.md",
+		"/Users/Zack/Documents/code/msc/log/legacy system.md",
+		"/Users/Zack/Documents/code/msc/log/reverse geocode new locations.md",
+		"/Users/Zack/Documents/code/msc/log/reverse geocode.md",
+		"/Users/Zack/Documents/code/msc/log/time series outliers.md",
+		"/Users/Zack/Documents/code/msc/log/clean test date.md",
+		"/Users/Zack/Documents/code/msc/data/location/location_client_type.csv",
+		"/Users/Zack/.bash_profile",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Typewriter.sublime-settings",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/BufferScroll.sublime-settings",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/BufferScroll/BufferScroll.sublime-settings",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Typewriter/Typewriter.sublime-settings",
+		"/private/var/folders/t3/q50k0hks0c12j8x62_kn35p00000gn/T/com.apple.mail/com.apple.mail/compose/attach/time series outliers-1.md",
+		"/private/var/folders/t3/q50k0hks0c12j8x62_kn35p00000gn/T/com.apple.mail/com.apple.mail/compose/attach/time series outliers.md",
+		"/Users/Zack/Documents/code/msc/.gitignore",
+		"/Users/Zack/.ssh/do.pub",
+		"/Users/Zack/Documents/code/msc/log/fill latlng.md",
+		"/Users/Zack/Documents/code/msc/log/fill coordinates.md",
+		"/Users/Zack/Documents/code/msc/data/old/device/circ_type.csv",
+		"/Users/Zack/Documents/code/msc/data/old/location/sublocation.csv",
+		"/Users/Zack/Documents/code/msc/data/old/location/new_old_location.csv",
+		"/Users/Zack/Documents/code/msc/sql/device.sql",
+		"/Users/Zack/Documents/code/msc/data/old/device/all_types.csv",
+		"/Users/Zack/Documents/code/msc/cluster/try_pandas.Rmd",
+		"/Users/Zack/.ipython/profile_msc_config/ipython_notebook_config.py",
+		"/Users/Zack/Documents/code/msc/cluster/try_pandas.md",
+		"/Users/Zack/Documents/code/msc/cluster/try pandas.md",
+		"/Users/Zack/Documents/code/msc/cluster/try pandas.Rmd",
+		"/Users/Zack/Documents/blog/blog.sublime-project",
+		"/Users/Zack/Downloads/trypandas.py",
+		"/Users/Zack/Downloads/try pandas.Rmd",
+		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
+		"/Users/Zack/Documents/blog/_config.yml",
+		"/Users/Zack/Documents/blog/_layouts/post.html",
+		"/Users/Zack/Documents/blog/index.html",
+		"/Users/Zack/Documents/blog/archives/index.html"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"`\n",
+			".\n",
+			"`===`.\n",
+			"select",
+			"WINDOW",
+			"NULL",
+			"DateTimeStamp",
+			"notes",
+			"nodes",
+			"insufficient",
+			"Return",
+			"\\<I\\>",
+			"source code",
+			"appendix",
+			"^\\s",
+			"-",
+			"^\\s",
+			"-",
+			"^\\s",
+			"algorithm",
+			"alg",
+			"^#.*",
+			"^#",
+			"my",
+			"when database",
+			"spell",
+			"^#\\s(\\w\\b)*",
+			"^#\\s(\\w\\s)*",
+			"^#\\s\\w*",
+			"^#",
+			"#",
+			"\"\"\"",
+			"#",
+			"-",
+			"&",
+			"\\&",
+			"&",
+			"#",
+			"\\#",
+			"^\\#",
+			"#",
+			"159",
+			"g",
+			"\"\\\\\"",
+			"\\\\",
+			"#",
+			"\\#",
+			"\\<#\\>",
+			"&",
+			"#",
+			"\\#",
+			"\\\\",
+			"# ",
+			"10",
+			"#",
+			"^#",
+			"\n#",
+			"algo",
+			"156",
+			"156 85\n153 89\n144 95\n148 94\n149 93\n150 92\n152 90\n151 91\n155 86\n154 87",
+			"156 85\n153 89\n144 95\n148 94\n149 93\n150 92\n152 90\n151 91\n155 86\n154",
+			"156",
+			"0",
+			"Segmentation fault",
+			"Segmen",
+			"segmentation",
+			"begin",
+			"methods",
+			"figure",
+			"the",
+			"The",
+			"the",
+			"The",
+			"the",
+			"The",
+			"tab",
+			"auto_complete",
+			"ruler",
+			"/",
+			"f",
+			"+f",
+			"cmd+f",
+			"vspace"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"-1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 157.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "uc.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rout",
+				"conf/routes"
+			],
+			[
+				"depen",
+				"conf/dependencies.yml"
+			],
+			[
+				"index",
+				"app/views/Application/index.html"
+			],
+			[
+				"di",
+				"app/views/tags/display.html"
+			],
+			[
+				"displa",
+				"app/views/tags/display.html"
+			],
+			[
+				"commen",
+				"app/models/Comment.java"
+			],
+			[
+				"pos",
+				"app/models/Post.java"
+			],
+			[
+				"user",
+				"app/models/User.java"
+			],
+			[
+				"appja",
+				"app/controllers/Application.java"
+			],
+			[
+				"rou",
+				"conf/routes"
+			],
+			[
+				"de",
+				"conf/dependencies.yml"
+			],
+			[
+				"post",
+				"app/models/Post.java"
+			],
+			[
+				"mai",
+				"app/views/main.html"
+			],
+			[
+				"boo",
+				"app/Bootstrap.java"
+			],
+			[
+				"appconf",
+				"conf/application.conf"
+			],
+			[
+				"main",
+				"app/views/main.html"
+			],
+			[
+				"ini",
+				"conf/initial-data.yml"
+			],
+			[
+				"comme",
+				"app/models/Comment.java"
+			],
+			[
+				"basic",
+				"test/BasicTest.java"
+			],
+			[
+				"appcon",
+				"conf/application.conf"
+			],
+			[
+				"applija",
+				"app/controllers/Application.java"
+			],
+			[
+				"app",
+				"app/controllers/Application.java"
+			],
+			[
+				"data",
+				"test/data.yml"
+			],
+			[
+				"applijav",
+				"app/controllers/Application.java"
+			],
+			[
+				"applicatesthtml",
+				"test/Application.test.html"
+			],
+			[
+				"mail",
+				"app/views/main.html"
+			],
+			[
+				"inde",
+				"app/views/Application/index.html"
+			],
+			[
+				"appjava",
+				"app/controllers/Application.java"
+			],
+			[
+				"py",
+				"cluster/xmeans.py"
+			],
+			[
+				"fea",
+				"cluster/feature_selection.py"
+			],
+			[
+				"xmea",
+				"cluster/xmeans.py"
+			],
+			[
+				"stat",
+				"log/stat of tables.md"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"md",
+				"log/questions.md"
+			],
+			[
+				"sta",
+				"log/stat of tables.md"
+			],
+			[
+				"wai",
+				"sql/wait.sql"
+			],
+			[
+				"wait",
+				"sql/wait.sql"
+			],
+			[
+				"loca",
+				"data/location/location.csv"
+			],
+			[
+				"wa",
+				"sql/wait.sql"
+			],
+			[
+				"t_s",
+				"data/transaction/t_sussex.csv"
+			],
+			[
+				"tsa",
+				"sql/tsa.sql"
+			],
+			[
+				"ge",
+				"geocode/geocode.py"
+			],
+			[
+				"subli",
+				"msc.sublime-project"
+			],
+			[
+				"cle",
+				"sql/clean.sql"
+			],
+			[
+				"sql",
+				"sql/wait.sql"
+			],
+			[
+				"clean",
+				"sql/clean.sql"
+			],
+			[
+				"se_ac",
+				"data/old/location/se_action.csv"
+			],
+			[
+				"libsql",
+				"sql/library.sql"
+			],
+			[
+				"statl",
+				"log/stat of tables.md"
+			],
+			[
+				"log",
+				"log/clean test date.md"
+			],
+			[
+				"lib",
+				"sql/library.sql"
+			],
+			[
+				"trypan",
+				"cluster/try_pandas.md"
+			],
+			[
+				"tryp",
+				"cluster/try_pandas.Rmd"
+			],
+			[
+				"trypandmd",
+				"cluster/try pandas.md"
+			],
+			[
+				"def",
+				"_layouts/default.html"
+			],
+			[
+				"201",
+				"_posts/2015-06-24-first-glance-at-pandas.md"
+			],
+			[
+				"",
+				"_posts/2015-06-24-first-glance-at-pandas.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"play",
+				"~/Documents/code/play/play.sublime-project"
+			],
+			[
+				"",
+				"~/Dropbox/mu/thesis/thesis.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"vintage":
+		{
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

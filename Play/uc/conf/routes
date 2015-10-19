@@ -5,21 +5,14 @@
 # Home page
 GET     /                                       Application.index
 
-# Import Secure routes
-*       /                                       module:secure
-
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
 # Map static resources from the /app/public folder to the /public path
 GET     /public/                                staticDir:public
 
-# Better URL for the post page
-GET     /posts/{id}                             Application.show
-POST    /posts/{postId}/comments                Application.postComment
+# Catch all
+*       /{controller}/{action}                  {controller}.{action}
 
 # Import CRUD routes
 *       /admin                                  module:crud
-
-# Catch all
-*       /{controller}/{action}                  {controller}.{action}

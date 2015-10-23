@@ -101,9 +101,9 @@ public class User extends GenericModel {
         return new JSONObject(this, keys);
     }
 
-    public String printUser() {
+    public String toString() {
         System.out.println("Testing: output an object.");
-        return "Testing: invoke a method.";
+        return "id=" + this.id + "\nname=" + this.name + "\nage=" + this.age;
     }
 
 }

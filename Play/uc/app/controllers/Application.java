@@ -22,9 +22,8 @@ public class Application extends Controller {
         render();
     }
 
-    public static void showSearchUser(JSONObject users) {
-        System.out.println(users.getClass());
-        render(users);
+    public static void showSearchUser(String result) {
+        render(result);
     }
 
     public static void addUser(
@@ -40,6 +39,7 @@ public class Application extends Controller {
         }
 
         int code = User.addUser(new User(id, name, age, isNew));
+        // int code = User.addHUser(new User(id, name, age, isNew));
         if (code == 0) {
             flash.success("Successfully add a new user.");
         } else if (code == -1) {
@@ -54,18 +54,13 @@ public class Application extends Controller {
         if (validation.hasErrors()) {
             render("Application/showSearchUser.html");
         }
-
-        // List<JSONObject> usersInJson = new ArrayList<> ();
         User users = User.findUser(queryText);
-        // if (users != null) {
-        //     for (User user: users) {
-        //         usersInJson.add(user.toJson());
-        //     }
-        //     showSearchUser(usersInJson);
-        // } else {
-        //     error("No user found.");
-        // }
-        System.out.println(users.toJson().toString(4));
-        showSearchUser(users.toJson());
+        if (users != null) {
+            showSearchUser(users.toJson().toString(4));
+        } else {
+            showSearchUser("No user found. Please check the id.");
+        }
+
+        // showSearchUser(User.findHUser(queryText));
     }
 }

@@ -1,0 +1,43 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+#{form @Application.addUser()}
+    #{ifErrors}
+        <p class="error">
+            All fields required. Please check the ID.
+        </p>
+    #{/ifErrors}
+
+    <p>
+        <label for="id">Id </label>
+        <input type="text" name="id" id="userId" />
+    </p>
+
+    <p>
+        <label for="name">Name </label>
+        <input type="text" name="name" id="userName" />
+    </p>
+
+    <p>
+        <label for="age">Age </label>
+        <input type="text" name="age" id="age" />
+    </p>
+
+    <p>
+        Is new user?
+        <input type="checkbox" name="isNew" id="isNew" checked="checked" />
+    </p>
+
+    <p>
+        <input type="submit" value="Add new user" />
+    </p>
+
+    #{if flash.error}
+        <p class="error">${flash.error}</p>
+    #{/if}
+    #{elseif flash.success}
+        <p class="success">${flash.success}</p>
+    #{/elseif}
+
+#{/form}

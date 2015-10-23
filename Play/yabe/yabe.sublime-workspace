@@ -19,13 +19,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -222,13 +215,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 127.0,
-		"last_filter": "pkg up",
+		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"pkg up",
 				"Package Control: Upgrade Package"
+			],
+			[
+				"syn css",
+				"Set Syntax: CSS"
 			],
 			[
 				"evu",
@@ -695,7 +692,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 539.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -717,10 +714,34 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Zack/Documents/code/yabe"
+		"/Users/Zack/Documents/code/tutorials/Play/yabe"
 	],
 	"file_history":
 	[
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Application.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/models/Post.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Posts.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/views/tags/display.html",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/views/Application/index.html",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/views/main.html",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/views/Application/show.html",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/public/stylesheets/main.css",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/models/User.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/models/Comment.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/routes",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/application.conf",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/dependencies.yml",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/Bootstrap.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/modules/crud",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/db/h2/play.mv.db",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Post2.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Users.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Post.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/messages",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/controllers/Comments.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/conf/initial-data.yml",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/test/BasicTest.java",
+		"/Users/Zack/Documents/code/tutorials/Play/yabe/test/data.yml",
 		"/Users/Zack/Documents/code/play/app/controllers/Application.java",
 		"/Users/Zack/Documents/code/play/app/views/Application/index.html",
 		"/Users/Zack/Documents/code/play/test/Application.test.html",
@@ -824,31 +845,7 @@
 		"/Users/Zack/Documents/blog/_posts/2015-06-24-first-glance-at-pandas.md",
 		"/Users/Zack/Documents/blog/_config.yml",
 		"/Users/Zack/Documents/blog/_layouts/post.html",
-		"/Users/Zack/Documents/blog/index.html",
-		"/Users/Zack/Documents/blog/archives/index.html",
-		"/Users/Zack/Documents/blog/_layouts/default.html",
-		"/Users/Zack/Downloads/solar-theme-jekyll-master/feed.xml",
-		"/Users/Zack/Documents/blog2/_config.yml",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Jekyll/Jekyll.sublime-settings",
-		"/Users/Zack/Documents/code/msc/sql/view.sql",
-		"/Users/Zack/Documents/code/msc/sql/patron.sql",
-		"/Users/Zack/Documents/code/msc/data/location/se_action.csv",
-		"/Users/Zack/Documents/code/msc/data/patron/borrow_year.csv",
-		"/Users/Zack/Documents/code/msc/data/location/geocode3.csv",
-		"/Users/Zack/Documents/code/msc/data/location/footfall.csv",
-		"/Users/Zack/Documents/code/msc/data/location/location3.csv",
-		"/Users/Zack/Documents/code/msc/geocode/fillcoord.py",
-		"/Users/Zack/Documents/code/msc/data/transaction/circulation.csv",
-		"/Users/Zack/Documents/code/msc/data/location/location_stat.csv",
-		"/Users/Zack/Documents/code/msc/data/device/circ_type.csv",
-		"/Users/Zack/Documents/code/msc/data/device/device_count.csv",
-		"/Users/Zack/Documents/code/msc/data/location/virtual_location.csv",
-		"/Users/Zack/Documents/code/msc/data/location/test_location.csv",
-		"/Users/Zack/Documents/code/msc/data/location/statevent_action_span.csv",
-		"/Users/Zack/Documents/code/msc/data/location/empty_location.csv",
-		"/Users/Zack/Documents/code/msc/data/location/device_of_location.csv",
-		"/Users/Zack/Documents/code/msc/data/location/del_location_transaction.csv"
+		"/Users/Zack/Documents/blog/index.html"
 	],
 	"find":
 	{
@@ -969,108 +966,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1127,28 +1024,140 @@
 		"selected_items":
 		[
 			[
-				"main",
-				"app/views/main.html"
-			],
-			[
-				"applijav",
+				"app",
 				"app/controllers/Application.java"
 			],
 			[
-				"index",
+				"postja",
+				"app/models/Post.java"
+			],
+			[
+				"java",
+				"app/controllers/Posts.java"
+			],
+			[
+				"disp",
+				"app/views/tags/display.html"
+			],
+			[
+				".html",
 				"app/views/Application/index.html"
 			],
 			[
-				"applicatesthtml",
-				"test/Application.test.html"
+				"comm",
+				"app/models/Comment.java"
+			],
+			[
+				"maincs",
+				"public/stylesheets/main.css"
+			],
+			[
+				"maincss",
+				"public/stylesheets/main.css"
+			],
+			[
+				"user",
+				"app/models/User.java"
+			],
+			[
+				"pos",
+				"app/models/Post.java"
+			],
+			[
+				"posts",
+				"app/controllers/Posts.java"
 			],
 			[
 				"rout",
 				"conf/routes"
 			],
 			[
-				"app",
+				"index",
+				"app/views/Application/index.html"
+			],
+			[
+				"appcon",
+				"conf/application.conf"
+			],
+			[
+				"main",
+				"app/views/main.html"
+			],
+			[
+				"post",
+				"app/models/Post.java"
+			],
+			[
+				"us",
+				"app/models/User.java"
+			],
+			[
+				"depen",
+				"conf/dependencies.yml"
+			],
+			[
+				"di",
+				"app/views/tags/display.html"
+			],
+			[
+				"displa",
+				"app/views/tags/display.html"
+			],
+			[
+				"commen",
+				"app/models/Comment.java"
+			],
+			[
+				"appja",
 				"app/controllers/Application.java"
+			],
+			[
+				"rou",
+				"conf/routes"
+			],
+			[
+				"de",
+				"conf/dependencies.yml"
+			],
+			[
+				"mai",
+				"app/views/main.html"
+			],
+			[
+				"boo",
+				"app/Bootstrap.java"
+			],
+			[
+				"appconf",
+				"conf/application.conf"
+			],
+			[
+				"ini",
+				"conf/initial-data.yml"
+			],
+			[
+				"comme",
+				"app/models/Comment.java"
+			],
+			[
+				"basic",
+				"test/BasicTest.java"
+			],
+			[
+				"applija",
+				"app/controllers/Application.java"
+			],
+			[
+				"data",
+				"test/data.yml"
+			],
+			[
+				"applijav",
+				"app/controllers/Application.java"
+			],
+			[
+				"applicatesthtml",
+				"test/Application.test.html"
 			],
 			[
 				"mail",
@@ -1314,8 +1323,14 @@
 	"selected_group": 0,
 	"settings":
 	{
+		"_vintageous_last_buffer_search": "find",
+		"_vintageous_last_buffer_search_command": "vi_slash",
+		"_vintageous_last_char_search_command": "vi_t",
+		"_vintageous_last_character_search": "t",
+		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
+			"_cmdline_cd": "/Users/Zack/Documents/code/tutorials/Play/yabe/conf"
 		}
 	},
 	"show_minimap": false,

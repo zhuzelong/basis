@@ -1,0 +1,19 @@
+#{extends "main.html" /}
+#{set title: 'Search user' /}
+
+#{ifErrors}
+    #{errors}
+        <li>${error}</li>
+    #{/errors}
+#{/ifErrors}
+
+#{else}
+${users.getClass()}
+
+#{list items: users, as: 'user'}
+    <p>
+        ${user.toString(4)}
+        ${user.getClass()}
+    </p>
+#{/list}
+#{/else}

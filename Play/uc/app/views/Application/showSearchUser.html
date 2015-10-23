@@ -1,0 +1,17 @@
+#{extends "main.html" /}
+#{set title: 'Search user' /}
+
+#{form @Application.searchUser()}
+    <p>
+    Please enter the Id for searching the user:
+    <input type="text" name="queryText" />
+    </p>
+
+    <p><input type="submit" value="Search"></p>
+#{/form}
+
+#{ifErrors}
+    #{errors}
+        <li>${error}</li>
+    #{/errors}
+#{/ifErrors}

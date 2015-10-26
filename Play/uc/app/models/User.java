@@ -32,19 +32,13 @@ public class User extends GenericModel {
     @Required
     public boolean isNew;
 
+    public static HConnection connection;
+
     public User(String id, String name, int age, boolean isNew) {
         this.id = id;
         this.name = name;
         this.age= age;
         this.isNew = isNew;
-    }
-
-    public static Configuration initHbase() {
-        /**
-          * Initialize the configuration of Hbase and make connection.
-        */
-        Configuration conf = HBaseConfiguration.create();
-        return conf;
     }
 
     public static int addUser(User user) {
@@ -62,20 +56,11 @@ public class User extends GenericModel {
     }
 
     public static int addHUser(User user) throws IOException {
-        Configuration conf = initHbase();
-        HTable table = new HTable(conf, "Users");
+        HTableInterface table = connection.getTable("users");
         Put put = new Put(Bytes.toBytes(user.id));
         put.add(Bytes.toBytes("info"),
-                Bytes.toBytes("name"),
-                Bytes.toBytes(user.name)
-                );
-        put.add(Bytes.toBytes("info"),
-                Bytes.toBytes("age"),
-                Bytes.toBytes(user.age)
-                );
-        put.add(Bytes.toBytes("info"),
-                Bytes.toBytes("isNew"),
-                Bytes.toBytes(user.isNew)
+                Bytes.toBytes("id"),
+                Bytes.toBytes(user.id)
                 );
         table.put(put);
         return 0;
@@ -86,13 +71,18 @@ public class User extends GenericModel {
     }
 
     public static JSONObject findHUser(String id) throws IOException {
-        Configuration conf = initHbase();
-        HTable table = new HTable(conf, "Users");
+        HTableInterface table = connection.getTable("users");
         Get get = new Get(Bytes.toBytes(id));
         get.addFamily(Bytes.toBytes("info"));
         Result rslt = table.get(get);
         Map<byte[], byte[]> userMap = rslt.getFamilyMap(Bytes.toBytes("info"));
-        return new JSONObject(userMap);
+
+        String source = "{";
+        for (Map.Entry<byte[], byte[]> entry: userMap.entrySet()) {
+            source += String(entry.getKey()) + ":" + String(entry.getValue());
+        }
+        source += "}";
+        return new JSONObject(source);
     }
 
     public JSONObject toJson() {

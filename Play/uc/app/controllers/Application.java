@@ -10,6 +10,7 @@ import models.*;
 import org.json.*;
 
 import java.util.*;
+import java.io.IOException;
 
 
 public class Application extends Controller {
@@ -33,7 +34,7 @@ public class Application extends Controller {
         @Match(value="[0-9]{1,3}")
         int age,
         @Required boolean isNew
-        ) {
+        ) throws IOException {
         if (validation.hasErrors()) {
             render("Application/index.html");
         }
@@ -50,7 +51,7 @@ public class Application extends Controller {
         showAddUser();
     }
 
-    public static void searchUser(@Required String queryText) {
+    public static void searchUser(@Required String queryText) throws IOException {
         if (validation.hasErrors()) {
             render("Application/showSearchUser.html");
         }

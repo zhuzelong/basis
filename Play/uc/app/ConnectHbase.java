@@ -13,9 +13,9 @@ import java.io.IOException;
 
 
 @OnApplicationStart
-public class Connect extends Job<HTable> {
+public class ConnectHbase extends Job {
 
-    public void doJob() {
+    public void doJob() throws IOException {
         Configuration conf = HBaseConfiguration.create();
         User.connection = HConnectionManager.createConnection(conf);
     }

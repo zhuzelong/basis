@@ -55,6 +55,7 @@ public class Application extends Controller {
         if (validation.hasErrors()) {
             render("Application/showSearchUser.html");
         }
+
         User users = User.findUser(queryText);
         if (users != null) {
             showSearchUser(users.toJson().toString(4));
@@ -62,6 +63,23 @@ public class Application extends Controller {
             showSearchUser("No user found. Please check the id.");
         }
 
-        // showSearchUser(User.findHUser(queryText));
+        // showSearchUser(User.findHUser(queryText).toString(4));
+    }
+
+    public static void searchVideo(
+        @Required String field,
+        @Required String query,
+        int size
+        ) {
+        if (validation.hasErrors()) {
+            render("Application/searchVideo.html");
+        }
+
+        if (size == 0) {
+            size = 10;
+        }
+
+        String results = Video.searchVideo(field, query, size);
+        render(results)
     }
 }

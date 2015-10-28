@@ -1,0 +1,32 @@
+#{extends "main.html" /}
+#{set title: 'Search video' /}
+
+#{form @Application.searchVideo()}
+    <p>
+    Field to search on:
+    <input type="text" name="field" />
+    </p>
+
+    <p>
+    Query text:
+    <input type="text" name="query" />
+    </p>
+
+    <p>
+    The number of results to show:
+    <input type="text" name="size">
+    </p>
+
+    <p><input type="submit" value="Search Video"></p>
+#{/form}
+
+#{ifErrors}
+    #{errors}
+        <li>${error}</li>
+    #{/errors}
+#{/ifErrors}
+#{else}
+<p>
+    ${results}
+</p>
+#{/else}

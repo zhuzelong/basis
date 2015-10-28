@@ -20,22 +20,27 @@
 	"buffers":
 	[
 		{
-			"contents": "⠤\n▾ app/\n   ▸ controllers/\n   ▸ models/\n   ▸ views/\n   ≡ Connect.java\n▸ conf/\n▸ db/\n▸ documentation/\n▸ lib/\n▸ modules/\n▸ public/\n▸ test/\n▸ tmp/\n≡ uc.sublime-project\n≡ uc.sublime-workspace",
+			"file": "app/controllers/Application.java",
 			"settings":
 			{
-				"buffer_size": 187,
-				"line_ending": "Unix",
-				"name": "𝌆 uc",
-				"read_only": true,
-				"scratch": true
+				"buffer_size": 2083,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/models/User.java",
+			"file": "app/models/Video.java",
 			"settings":
 			{
-				"buffer_size": 2898,
+				"buffer_size": 2458,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Zack/Documents/career/uc/ElasticSearch 作业.txt",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -234,10 +239,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 107.0,
+		"last_filter": "qu",
 		"selected_items":
 		[
+			[
+				"qu",
+				"ChangeQuotes"
+			],
 			[
 				"pkg up",
 				"Package Control: Upgrade Package"
@@ -711,7 +720,7 @@
 				"Colorsublime: Install Theme"
 			]
 		],
-		"width": 575.0
+		"width": 539.0
 	},
 	"console":
 	{
@@ -737,21 +746,32 @@
 	],
 	"file_history":
 	[
+		"/Users/Zack/Documents/career/uc/esload.py",
+		"/Users/Zack/Documents/career/uc/video_sample",
+		"/Users/Zack/Documents/career/uc/ElasticSearch 作业.txt",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/models/User.java",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/models/Video.java",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/searchVideo.html",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/index.html",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/showSearchVideo.html",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/ConnectHbase.java",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/showSearchResult.html",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/ConnectElasticsearch.java",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/controllers/Application.java",
+		"/Users/Zack/Downloads/elasticsearch-1.5.0/README.textile",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/conf/dependencies.yml",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/Connect.java",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/controllers/Users.java",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/showSearchUser.html",
+		"/Users/Zack/Documents/code/tutorials/Play/uc/app/controllers/Video.java",
+		"/Users/Zack/Downloads/Tutorial/users",
 		"/Users/Zack/Documents/code/tutorials/Play/yabe/app/Bootstrap.java",
 		"/Users/Zack/Downloads/Tutorial/hive.sql",
-		"/Users/Zack/Documents/code/tutorials/Play/uc/app/models/User.java",
-		"/Users/Zack/Documents/code/tutorials/Play/uc/app/controllers/Application.java",
-		"/Users/Zack/Downloads/Tutorial/users",
 		"/Users/Zack/Desktop/新人入职培训——hadoop相关作业.txt",
-		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/showSearchUser.html",
-		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/showSearchResult.html",
 		"/Users/Zack/Documents/code/tutorials/Play/uc/conf/routes",
 		"/Users/Zack/Documents/code/tutorials/Play/uc/conf/application.conf",
 		"/Applications/play-1.3.1/samples-and-tests/forum/app/controllers/Forums.java",
 		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/showAddUser.html",
-		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/index.html",
-		"/Users/Zack/Documents/code/tutorials/Play/uc/conf/dependencies.yml",
-		"/Users/Zack/Documents/code/tutorials/Play/uc/app/controllers/Users.java",
 		"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/Application/search.html",
 		"/Users/Zack/Downloads/sn.txt",
 		"/Users/Zack/Downloads/sn.t",
@@ -853,18 +873,7 @@
 		"/Users/Zack/Documents/code/msc/log/fix latlng.md",
 		"/Users/Zack/Documents/code/msc/log/legacy system.md",
 		"/Users/Zack/Documents/code/msc/log/reverse geocode new locations.md",
-		"/Users/Zack/Documents/code/msc/log/reverse geocode.md",
-		"/Users/Zack/Documents/code/msc/log/time series outliers.md",
-		"/Users/Zack/Documents/code/msc/log/clean test date.md",
-		"/Users/Zack/Documents/code/msc/data/location/location_client_type.csv",
-		"/Users/Zack/.bash_profile",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/Typewriter.sublime-settings",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/User/BufferScroll.sublime-settings",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/BufferScroll/BufferScroll.sublime-settings",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/Users/Zack/Library/Application Support/Sublime Text 3/Packages/Typewriter/Typewriter.sublime-settings",
-		"/private/var/folders/t3/q50k0hks0c12j8x62_kn35p00000gn/T/com.apple.mail/com.apple.mail/compose/attach/time series outliers-1.md",
-		"/private/var/folders/t3/q50k0hks0c12j8x62_kn35p00000gn/T/com.apple.mail/com.apple.mail/compose/attach/time series outliers.md"
+		"/Users/Zack/Documents/code/msc/log/reverse geocode.md"
 	],
 	"find":
 	{
@@ -985,23 +994,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "app/controllers/Application.java",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 187,
+						"buffer_size": 2083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								57,
-								57
+								1952,
+								1952
 							]
 						],
 						"settings":
@@ -1009,11 +1019,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1024,161 +1049,31 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"dired_count": 15,
-							"dired_index":
-							[
-								"⠤",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/app/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/app/controllers/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/app/models/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/app/views/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/app/Connect.java",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/conf/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/db/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/documentation/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/lib/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/modules/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/public/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/test/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/tmp/",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/uc.sublime-project",
-								"/Users/Zack/Documents/code/tutorials/Play/uc/uc.sublime-workspace"
-							],
-							"dired_path": "/Users/Zack/Documents/code/tutorials/Play/uc/",
-							"dired_rename_mode": false,
-							"syntax": "Packages/FileBrowser/dired.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
-					"file": "app/models/User.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2898,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2507,
-								2507
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
+								"bh_tag_content"
 							],
 							"syntax": "Packages/Java/Java.tmLanguage",
 							"tab_size": 4,
@@ -1196,14 +1091,221 @@
 								"partial_sequence": "",
 								"register": "\"",
 								"sequence": "",
+								"xpos": 23
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1091.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/Video.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1550,
+								1550
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"highlight_line": false,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"vintage":
+							{
+								"_vintageous_glue_until_normal_mode": false,
+								"_vintageous_non_interactive": false,
+								"_vintageous_processing_notation": false,
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"normal_insert_count": "1",
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
+								"xpos": 7
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 1091.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/Zack/Documents/career/uc/ElasticSearch 作业.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"vintage":
+							{
+								"action": null,
+								"action_count": "",
+								"mode": "mode_normal",
+								"motion": null,
+								"motion_count": "",
+								"must_capture_register_name": false,
+								"partial_sequence": "",
+								"register": "\"",
+								"sequence": "",
 								"xpos": 0
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 1637.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1226,18 +1328,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.3,
 			1.0
 		],
 		"rows":
@@ -1269,16 +1364,76 @@
 		"selected_items":
 		[
 			[
+				"video",
+				"app/models/Video.java"
+			],
+			[
 				"user",
 				"app/models/User.java"
+			],
+			[
+				"connh",
+				"app/ConnectHbase.java"
+			],
+			[
+				"inde",
+				"app/views/Application/index.html"
+			],
+			[
+				"showseavi",
+				"app/views/Application/showSearchVideo.html"
+			],
+			[
+				"sea",
+				"app/views/Application/searchVideo.html"
+			],
+			[
+				"index",
+				"app/views/Application/index.html"
+			],
+			[
+				"con",
+				"app/ConnectElasticsearch.java"
 			],
 			[
 				"appl",
 				"app/controllers/Application.java"
 			],
 			[
+				"conn",
+				"app/ConnectElasticsearch.java"
+			],
+			[
+				"vi",
+				"app/models/Video.java"
+			],
+			[
+				"vid",
+				"app/models/Video.java"
+			],
+			[
+				"sear",
+				"app/views/Application/searchVideo.html"
+			],
+			[
+				"dep",
+				"conf/dependencies.yml"
+			],
+			[
+				"users",
+				"app/controllers/Users.java"
+			],
+			[
 				"show",
 				"app/views/Application/showSearchResult.html"
+			],
+			[
+				"app",
+				"app/controllers/Application.java"
+			],
+			[
+				"depen",
+				"conf/dependencies.yml"
 			],
 			[
 				"showse",
@@ -1287,10 +1442,6 @@
 			[
 				"routes",
 				"conf/routes"
-			],
-			[
-				"app",
-				"app/controllers/Application.java"
 			],
 			[
 				".conf",
@@ -1305,28 +1456,12 @@
 				"app/views/Application/showSearchUser.html"
 			],
 			[
-				"index",
-				"app/views/Application/index.html"
-			],
-			[
 				"de",
 				"conf/dependencies.yml"
 			],
 			[
-				"users",
-				"app/controllers/Users.java"
-			],
-			[
-				"inde",
-				"app/views/Application/index.html"
-			],
-			[
 				"ap",
 				"app/controllers/Application.java"
-			],
-			[
-				"dep",
-				"conf/dependencies.yml"
 			],
 			[
 				"s",
@@ -1351,10 +1486,6 @@
 			[
 				"in",
 				"app/views/main.html"
-			],
-			[
-				"depen",
-				"conf/dependencies.yml"
 			],
 			[
 				"di",
@@ -1588,14 +1719,14 @@
 	"selected_group": 0,
 	"settings":
 	{
-		"_vintageous_last_buffer_search": "add",
+		"_vintageous_last_buffer_search": "funny",
 		"_vintageous_last_buffer_search_command": "vi_slash",
 		"_vintageous_last_char_search_command": "vi_t",
 		"_vintageous_last_character_search": "u",
 		"_vintageous_reset_during_init": true,
 		"vintage":
 		{
-			"_cmdline_cd": "/Users/Zack/Downloads/Tutorial"
+			"_cmdline_cd": "/Users/Zack/Documents/code/tutorials/Play/uc/app/models"
 		}
 	},
 	"show_minimap": false,
